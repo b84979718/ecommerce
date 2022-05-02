@@ -1,0 +1,49 @@
+table, 
+tr, 
+th, 
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    height: 40px;
+}
+
+tr:hover {
+    background-color:orange;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px 10px;
+}
+
+.orders-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 65vh;
+}
+
+
+.shop-now-button {
+    background-color: blue;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.shop-now-button:hover {
+    background-color: transparent;
+    border: 1px solid blue;
+    color: black;
+}

@@ -1,0 +1,110 @@
+.navbar-large, .navbar-small {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navbar {
+    align-items: center;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar-large {
+        display: none;
+    }
+    .navbar{
+        padding: 0px 20px;
+    }
+}
+
+.navbar-second-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.route-links {
+    color: black;
+    text-decoration: none;
+}
+
+.route-links:hover {
+    color: blue;
+    position: relative;
+    top: 2px;
+}
+
+.active-section {
+    color: blue;
+}
+
+.home-icon {
+    font-size: 40px;
+}
+
+.cart-icon {
+    font-size: 22px;
+}
+
+
+.logout-button {
+    background-color: blue;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.logout-button:hover {
+    background-color: transparent;
+    border: 1px solid blue;
+    color: black;
+}
+
+
+.home-small-icon {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.small-screen-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+}
+
+.cart-small-icon {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 700px){
+    .navbar-small,
+    .small-screen-container {
+        display: none;
+    }
+}
+
+.total-cart-items {
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+    height: 25px;
+    width: 25px;
+}
+
+.cart-icon-container {
+    align-items: center;
+    display: flex;
+}

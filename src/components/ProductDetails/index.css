@@ -1,0 +1,128 @@
+.product-details-page-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+
+.product-details-container {
+    display: flex;
+}
+
+
+.product-details-container img {
+    border-radius: 20px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.product-details-container > div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+
+.product-title {
+    color: #3e4c59;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .product-details-container {
+        align-items: center;
+        flex-direction: column;
+        margin: 30px 0px;
+    }
+    .product-details-container img {
+        height: 250px;
+        width: 90%;
+    }
+    .product-details-container > div {
+        width: 90%;
+    }
+    .product-title {
+        font-size: 30px;
+        text-align: left;
+    }
+}
+
+.product-price {
+    color: blue ;
+    font-size: 25px;
+}
+
+.product-rating {
+    align-items: center;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-around;
+    height: 30px;
+    margin: 0px 0px 10px 0px ;
+    width: 70px;
+}
+
+.product-brand {
+    font-weight: 700;
+}
+
+
+.brand-para {
+    margin-bottom: 5px;
+}
+
+.product-count {
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.quantity-icons {
+    cursor: pointer;
+}
+
+.product-count p {
+    margin: 0px 10px;
+}
+
+.add-to-cart-button {
+    background-color: blue;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    height: 35px;
+    margin-top: 25px;
+}
+
+.share-button {
+    background-color: blue;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.share-button:hover, 
+.add-to-cart-button:hover {
+    background-color: transparent;
+    border: 1px solid blue;
+    color: black;
+}
+
+.added-to-cart-text {
+    color: green;
+    font-weight: 600;
+    margin-bottom: 5px;
+}

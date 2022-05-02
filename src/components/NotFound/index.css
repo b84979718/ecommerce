@@ -1,0 +1,16 @@
+.not-found-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-home-button {
+    background-color: blue;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    height: 30px;
+    padding: 5px 10px;
+}
